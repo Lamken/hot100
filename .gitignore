@@ -31,6 +31,7 @@
 *.dylib
 
 # Executables
+*.cdb
 *.exe
 *.out
 *.app
@@ -43,6 +44,16 @@
 *.su
 *.idb
 *.pdb
+
+# Clion Files
+*.xml
+*.iml
+*.cmake
+Makefile
+CMakeLists.txt
+*.cbp
+*/cmake-build-debug/*
+*/.idea/*
 
 # Kernel Module Compile Results
 *.mod*
